@@ -21,7 +21,10 @@ class Todocard extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [Text(cardtitle), Icon(
-            doneorno? Icons.check :Icons.close,
+            doneorno? Icons.check
+             :Icons.close,
+             size: 33,
+             color: doneorno?Colors.green:Colors.red,
           )],
         ),
       ),
