@@ -67,19 +67,18 @@ class _FirstProjectState extends State<FirstProject> {
              
               return Dialog(
                 child: Container(
-                  padding: EdgeInsets.all(22),
+                  padding: EdgeInsets.all(10),
                   height: 250,
 
                   child: Column(
                     children: [
                     Padding(
                       padding: const EdgeInsets.all(11),
-                      child: Text("${calculatecompletedtask()}/${allTasks.length}}" ,
-                      style: TextStyle(fontSize: 33,fontWeight: FontWeight.bold,color:Colors.white),
+                    
                       
                       
                       ),
-                    ),
+                    
                       TextField(
                         controller: mycontroller,
                         maxLength: 20,
@@ -111,7 +110,9 @@ class _FirstProjectState extends State<FirstProject> {
                     ],
                   ),
                 ),
+              
               );
+              
             },
           );
         },

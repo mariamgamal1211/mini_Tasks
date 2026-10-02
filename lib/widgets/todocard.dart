@@ -11,7 +11,7 @@ class Todocard extends StatelessWidget {
       widthFactor: 0.9,
 
       child: Container(
-        width: 333,
+        width: 200,
         margin: EdgeInsets.only(top: 10),
         padding: EdgeInsets.all(10),
         decoration: BoxDecoration(
