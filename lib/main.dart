@@ -42,10 +42,10 @@ class _FirstProjectState extends State<FirstProject> {
   ];
   void addtask() {
     setState(() {
-      allTasks[allTasks.length - 1] = Task(
+      allTasks.add (Task(
         title: mycontroller.text,
         status: false,
-      );
+       ) );
     });
   }
 
